@@ -116,25 +116,41 @@ fDcaZMax(3.)
   for (int i=0; i<2; ++i) hDcaZ[i]  = NULL;
   hPDedx = NULL;
 
-  
+  //CME
   //N(S)
-  for (int i=0; i<10; ++i) hNDeltaSPsi2[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi2[i] = NULL;
   //N(S_sf)
-  for (int i=0; i<10; ++i) hNDeltaSPsi2_sf[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi2_sf[i] = NULL;
   //N(SVert)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi2[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi2[i] = NULL;
   //N(SVert_sf)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi2_sf[i] = NULL;
-
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi2_sf[i] = NULL;
   //N(S)
-  for (int i=0; i<10; ++i) hNDeltaSPsi3[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi3[i] = NULL;
   //N(S_sf)
-  for (int i=0; i<10; ++i) hNDeltaSPsi3_sf[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi3_sf[i] = NULL;
   //N(SVert)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi3[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi3[i] = NULL;
   //N(SVert_sf)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi3_sf[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi3_sf[i] = NULL;
 
+  //CMW
+  //N(S)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi2[i] = NULL;
+  //N(S_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi2_sf[i] = NULL;
+  //N(SVert)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi2[i] = NULL;
+  //N(SVert_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi2_sf[i] = NULL;
+  //N(S)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi3[i] = NULL;
+  //N(S_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi3_sf[i] = NULL;
+  //N(SVert)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi3[i] = NULL;
+  //N(SVert_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi3_sf[i] = NULL;
 }
 
 //---------------------------------------------------
@@ -183,24 +199,41 @@ fDcaZMax(3.)
   for (int i=0; i<2; ++i) hDcaZ[i]  = NULL;
   hPDedx = NULL;
 
+  //CME
   //N(S)
-  for (int i=0; i<10; ++i) hNDeltaSPsi2[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi2[i] = NULL;
   //N(S_sf)
-  for (int i=0; i<10; ++i) hNDeltaSPsi2_sf[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi2_sf[i] = NULL;
   //N(SVert)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi2[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi2[i] = NULL;
   //N(SVert_sf)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi2_sf[i] = NULL;
-
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi2_sf[i] = NULL;
   //N(S)
-  for (int i=0; i<10; ++i) hNDeltaSPsi3[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi3[i] = NULL;
   //N(S_sf)
-  for (int i=0; i<10; ++i) hNDeltaSPsi3_sf[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi3_sf[i] = NULL;
   //N(SVert)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi3[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi3[i] = NULL;
   //N(SVert_sf)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi3_sf[i] = NULL;
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi3_sf[i] = NULL;
 
+  //CMW
+  //N(S)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi2[i] = NULL;
+  //N(S_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi2_sf[i] = NULL;
+  //N(SVert)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi2[i] = NULL;
+  //N(SVert_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi2_sf[i] = NULL;
+  //N(S)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi3[i] = NULL;
+  //N(S_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi3_sf[i] = NULL;
+  //N(SVert)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi3[i] = NULL;
+  //N(SVert_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi3_sf[i] = NULL;
 
   DefineInput(0,TChain::Class());
   DefineOutput(1,TList::Class());
@@ -241,7 +274,7 @@ void AliAnalysisTaskRdoubleRatio::UserCreateOutputObjects()
   hEvtCount->GetXaxis()->SetBinLabel(17,"TPC plane");
   hEvtCount->GetXaxis()->SetBinLabel(18,"VZERO plane");
   hEvtCount->GetXaxis()->SetBinLabel(19,"ZDC plane");
-  hEvtCount->GetXaxis()->SetBinLabel(20,"loops end");
+  hEvtCount->GetXaxis()->SetBinLabel(20,"Loops end");
   mOutputList->Add(hEvtCount);
 
   // 10h
@@ -314,42 +347,61 @@ void AliAnalysisTaskRdoubleRatio::UserCreateOutputObjects()
   hPDedx = new TH2D("hPDedx", "", 400, -10., 10., 400, 0, 1000);
   mOutputList->Add(hPDedx);
 
+  //CME
+  //N(S)
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi2[i] = new TH1D(Form("hNDeltaSinSPsi2_cent%i",i),"",150,-1.5,1.5);
+  //N(S_sf)
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi2_sf[i] = new TH1D(Form("hNDeltaSinSPsi2_sf_cent%i",i),"",150,-1.5,1.5);
+  //N(SVert)
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi2[i] = new TH1D(Form("hNDeltaSinSVertPsi2_cent%i",i),"",150,-1.5,1.5);
+  //N(SVert_sf)
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi2_sf[i] = new TH1D(Form("hNDeltaSinSVertPsi2_sf_cent%i",i),"",150,-1.5,1.5);
 
   //N(S)
-  for (int i=0; i<10; ++i) hNDeltaSPsi2[i] = new TH1D(Form("hNDeltaSPsi2_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi3[i] = new TH1D(Form("hNDeltaSinSPsi3_cent%i",i),"",150,-1.5,1.5);
   //N(S_sf)
-  for (int i=0; i<10; ++i) hNDeltaSPsi2_sf[i] = new TH1D(Form("hNDeltaSPsi2_sf_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaSinSPsi3_sf[i] = new TH1D(Form("hNDeltaSinSPsi3_sf_cent%i",i),"",150,-1.5,1.5);
   //N(SVert)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi2[i] = new TH1D(Form("hNDeltaSVertPsi2_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi3[i] = new TH1D(Form("hNDeltaSinSVertPsi3_cent%i",i),"",150,-1.5,1.5);
   //N(SVert_sf)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi2_sf[i] = new TH1D(Form("hNDeltaSVertPsi2_sf_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaSinSVertPsi3_sf[i] = new TH1D(Form("hNDeltaSinSvertPsi3_sf_cent%i",i),"",150,-1.5,1.5);
+
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi2[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi2_sf[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi2[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi2_sf[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi3[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi3_sf[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi3[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi3_sf[i]);
+
+  //CMW
+  //N(S)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi2[i] = new TH1D(Form("hNDeltaCosSPsi2_cent%i",i),"",150,-1.5,1.5);
+  //N(S_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi2_sf[i] = new TH1D(Form("hNDeltaCosSPsi2_sf_cent%i",i),"",150,-1.5,1.5);
+  //N(SVert)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi2[i] = new TH1D(Form("hNDeltaCosSVertPsi2_cent%i",i),"",150,-1.5,1.5);
+  //N(SVert_sf)
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi2_sf[i] = new TH1D(Form("hNDeltaCosSVertPsi2_sf_cent%i",i),"",150,-1.5,1.5);
 
   //N(S)
-  for (int i=0; i<10; ++i) hNDeltaSPsi3[i] = new TH1D(Form("hNDeltaSPsi3_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi3[i] = new TH1D(Form("hNDeltaCosSPsi3_cent%i",i),"",150,-1.5,1.5);
   //N(S_sf)
-  for (int i=0; i<10; ++i) hNDeltaSPsi3_sf[i] = new TH1D(Form("hNDeltaSPsi3_sf_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaCosSPsi3_sf[i] = new TH1D(Form("hNDeltaCosSPsi3_sf_cent%i",i),"",150,-1.5,1.5);
   //N(SVert)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi3[i] = new TH1D(Form("hNDeltaSVertPsi3_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi3[i] = new TH1D(Form("hNDeltaCosSVertPsi3_cent%i",i),"",150,-1.5,1.5);
   //N(SVert_sf)
-  for (int i=0; i<10; ++i) hNDeltaSVertPsi3_sf[i] = new TH1D(Form("hNDeltaSvertPsi3_sf_cent%i",i),"",20,-0.8,0.8);
+  for (int i=0; i<10; ++i) hNDeltaCosSVertPsi3_sf[i] = new TH1D(Form("hNDeltaCosSvertPsi3_sf_cent%i",i),"",150,-1.5,1.5);
 
-  //N(S)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSPsi2[i]);
-  //N(S_sf)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSPsi2_sf[i]);
-  //N(SVert)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSVertPsi2[i]);
-  //N(SVert_sf)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSVertPsi2_sf[i]);
-
-  //N(S)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSPsi3[i]);
-  //N(S_sf)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSPsi3_sf[i]);
-  //N(SVert)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSVertPsi3[i]);
-  //N(SVert_sf)
-  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaSVertPsi3_sf[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi2[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi2_sf[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi2[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi2_sf[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi3[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSPsi3_sf[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi3[i]);
+  for (int i=0; i<10; ++i) mOutputList->Add(hNDeltaCosSVertPsi3_sf[i]);
 
   PostData(1,mOutputList);
 }
@@ -442,19 +494,14 @@ void AliAnalysisTaskRdoubleRatio::UserExec(Option_t *)
   //------------------
   //* loop trk
   //------------------
-
-  vector<double> vecPt;
-  vector<double> vecEta;
   vector<double> vecPhi;
-  vector<short>  vecID;
-  vector<int>    vecType;
+  vector<int> vecCharge;
 
   //TPC QxQy
   double sumCos2Phi = 0.;
   double sumSin2Phi = 0.;
   double sumCos3Phi = 0.;
   double sumSin3Phi = 0.;
-  int nTracks = 0;
 
   int nTrk = fAOD->GetNumberOfTracks();
   for (int iTrk = 0; iTrk < nTrk; ++iTrk) {
@@ -471,8 +518,6 @@ void AliAnalysisTaskRdoubleRatio::UserExec(Option_t *)
     int    nhits  = track->GetTPCNcls();
     double dedx   = track->GetTPCsignal();
     double chi2   = track->Chi2perNDF();
-    double px     = track->Px();
-    double py     = track->Py();
     hPt[0]->Fill(pt);
     hEta[0]->Fill(eta);
     hPhi[0]->Fill(phi);
@@ -517,37 +562,8 @@ void AliAnalysisTaskRdoubleRatio::UserExec(Option_t *)
     if (fabs(dcaz)>fDcaZMax) continue;//DCAz cut
     hDcaZ[1]->Fill(dcaz);
 
-    //PID
-    //TPC
-    float nSigmaTPCPi = fPID->NumberOfSigmasTPC(track, (AliPID::EParticleType)AliPID::kPion);
-    float nSigmaTPCK  = fPID->NumberOfSigmasTPC(track, (AliPID::EParticleType)AliPID::kKaon);
-    float nSigmaTPCP  = fPID->NumberOfSigmasTPC(track, (AliPID::EParticleType)AliPID::kProton);
-    //TOF
-    float nSigmaTOFPi = fPID->NumberOfSigmasTOF(track, (AliPID::EParticleType)AliPID::kPion);
-    float nSigmaTOFK  = fPID->NumberOfSigmasTOF(track, (AliPID::EParticleType)AliPID::kKaon);
-    float nSigmaTOFP  = fPID->NumberOfSigmasTOF(track, (AliPID::EParticleType)AliPID::kProton);
-
-    bool isPion   = ((TMath::Abs(nSigmaTPCPi) <= 2.) && (TMath::Abs(nSigmaTOFPi) <= 2.)); 
-    bool isKaon   = ((TMath::Abs(nSigmaTPCK)  <= 2.) && (TMath::Abs(nSigmaTOFK)  <= 2.)); 
-    bool isProton = ((TMath::Abs(nSigmaTPCP)  <= 2.) && (TMath::Abs(nSigmaTOFP)  <= 2.)); 
-
-    int type = 0;
-    if(charge > 0) {
-      type = 999;
-      if(isPion) type = 211;
-      if(isKaon) type = 321;
-      if(isProton) type = 2212;
-    }
-    if(charge < 0) {
-      type = -999;
-      if(isPion) type = -211;
-      if(isKaon) type = -321;
-      if(isProton) type = -2212;
-    }
-    if (type == 0) {
-      AliError("Wrong Track!");
-      return;
-    }
+    vecPhi.push_back(phi);
+    vecCharge.push_back(charge);
 
     //Qn
     double cos2phi = TMath::Cos(2 * phi);
@@ -558,9 +574,7 @@ void AliAnalysisTaskRdoubleRatio::UserExec(Option_t *)
     sumSin2Phi += sin2phi;
     sumCos3Phi += cos3phi;
     sumSin3Phi += sin3phi;
-    nTracks++;
   }
-
 
   //RDM Plane
   double psi2RDM = gRandom->Uniform(0,TMath::Pi());
@@ -580,12 +594,11 @@ void AliAnalysisTaskRdoubleRatio::UserExec(Option_t *)
   hPsi3TPC -> Fill(runNumBin, centBin, psi3TPC);
   hEvtCount->Fill(17);
 
-  vector<double> vecType_sf;
-  vecType_sf.assign(vecType.begin(),vecType.end());
-  // get a time-based seed
-  //unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
-  //std::shuffle (vecType_sf.begin(), vecType_sf.end(), std::default_random_engine(seed));
-  random_shuffle(vecType_sf.begin(), vecType_sf.end());
+  vector<int> vecCharge_sf;
+  vecCharge_sf.assign(vecCharge.begin(),vecCharge.end());
+  random_shuffle(vecCharge_sf.begin(), vecCharge_sf.end());
+
+  //Sin
   double sumSin2DeltaPhiPos = 0.;
   double sumSin2DeltaPhiPos_sf = 0.;
   double sumSin2DeltaPhiNeg = 0.;
@@ -606,70 +619,96 @@ void AliAnalysisTaskRdoubleRatio::UserExec(Option_t *)
   double sumSin3DeltaPhiVertNeg = 0.;
   double sumSin3DeltaPhiVertNeg_sf = 0.;
 
+  //Cos
+  double sumCos2DeltaPhiPos = 0.;
+  double sumCos2DeltaPhiPos_sf = 0.;
+  double sumCos2DeltaPhiNeg = 0.;
+  double sumCos2DeltaPhiNeg_sf = 0.;
 
-  double delta_hPos_hPos_thisEvt = 0.;
-  double delta_hNeg_hNeg_thisEvt = 0.;
-  double delta_hPos_hNeg_thisEvt = 0.;
-  double gammaTPC_hPos_hPos_thisEvt = 0.;
-  double gammaTPC_hNeg_hNeg_thisEvt = 0.;
-  double gammaTPC_hPos_hNeg_thisEvt = 0.;
+  double sumCos3DeltaPhiPos = 0.;
+  double sumCos3DeltaPhiPos_sf = 0.;
+  double sumCos3DeltaPhiNeg = 0.;
+  double sumCos3DeltaPhiNeg_sf = 0.;
+
+  double sumCos2DeltaPhiVertPos = 0.;
+  double sumCos2DeltaPhiVertPos_sf = 0.;
+  double sumCos2DeltaPhiVertNeg = 0.;
+  double sumCos2DeltaPhiVertNeg_sf = 0.;
+
+  double sumCos3DeltaPhiVertPos = 0.;
+  double sumCos3DeltaPhiVertPos_sf = 0.;
+  double sumCos3DeltaPhiVertNeg = 0.;
+  double sumCos3DeltaPhiVertNeg_sf = 0.;
 
   int nPos = 0;
   int nNeg = 0;
 
-  int nPosPos = 0;
-  int nNegNeg = 0;
-  int nPosNeg = 0;
+  for (vector<double>::size_type iTrk = 0; iTrk < vecPhi.size(); iTrk++) {
+    double phi = vecPhi[iTrk];
+    int  charge  = vecCharge[iTrk];
+    int  charge_sf = vecCharge_sf[iTrk];
 
-  for (vector<double>::size_type iTrk = 0; iTrk < vecPt.size(); iTrk++) {
-    short  id_1  = vecID[iTrk];
-    double pt_1  = vecPt[iTrk];
-    double eta_1 = vecEta[iTrk];
-    double phi_1 = vecPhi[iTrk];
-    int  type_1  = vecType[iTrk];
-    int  type_sf = vecType_sf[iTrk];
-
-    //FIXME
     TVector2 Q2TPC_tmp;
     TVector2 Q3TPC_tmp;
-    Q2TPC_tmp.Set(sumCos2Phi - TMath::Cos(2 * phi_1), sumSin2Phi - TMath::Sin(2 * phi_1));
-    Q3TPC_tmp.Set(sumCos3Phi - TMath::Cos(3 * phi_1), sumSin3Phi - TMath::Sin(3 * phi_1));
+    Q2TPC_tmp.Set(sumCos2Phi - TMath::Cos(2 * phi), sumSin2Phi - TMath::Sin(2 * phi));
+    Q3TPC_tmp.Set(sumCos3Phi - TMath::Cos(3 * phi), sumSin3Phi - TMath::Sin(3 * phi));
     double psi2TPC_tmp = Q2TPC_tmp.Phi()/2;
     double psi3TPC_tmp = Q3TPC_tmp.Phi()/3;
 
-    if(type_1 > 0) 
+    if(charge > 0) 
     {
-      sumSin2DeltaPhiPos += sin(phi_1-psi2TPC_tmp);
-      sumSin3DeltaPhiPos += sin(3/2*(phi_1-psi3TPC_tmp));
-      sumSin2DeltaPhiVertPos += sin(phi_1-psi2TPC_tmp+TMath::Pi()/2);
-      sumSin3DeltaPhiVertPos += sin(3/2*(phi_1-psi3TPC_tmp+TMath::Pi()/3));
+      sumSin2DeltaPhiPos += TMath::Sin(phi-psi2TPC_tmp);
+      sumSin3DeltaPhiPos += TMath::Sin(3/2*(phi-psi3TPC_tmp));
+      sumSin2DeltaPhiVertPos += TMath::Sin(phi-psi2TPC_tmp+TMath::Pi()/2);
+      sumSin3DeltaPhiVertPos += TMath::Sin(3/2*(phi-psi3TPC_tmp+TMath::Pi()/3));
+
+      sumCos2DeltaPhiPos += TMath::Cos(2*(phi-psi2TPC_tmp));
+      sumCos3DeltaPhiPos += TMath::Cos(3*(phi-psi3TPC_tmp));
+      sumCos2DeltaPhiVertPos += TMath::Cos(2*(phi-psi2TPC_tmp+TMath::Pi()/2));
+      sumCos3DeltaPhiVertPos += TMath::Cos(3*(phi-psi3TPC_tmp+TMath::Pi()/3));
       nPos++;
     }
-    if(type_sf > 0) 
+    if(charge_sf > 0) 
     {
-      sumSin2DeltaPhiPos_sf += sin(phi_1-psi2TPC_tmp);
-      sumSin3DeltaPhiPos_sf += sin(3/2*(phi_1-psi3TPC_tmp));
-      sumSin2DeltaPhiVertPos_sf += sin(phi_1-psi2TPC_tmp+TMath::Pi()/2);
-      sumSin3DeltaPhiVertPos_sf += sin(3/2*(phi_1-psi3TPC_tmp+TMath::Pi()/3));
+      sumSin2DeltaPhiPos_sf += TMath::Sin(phi-psi2TPC_tmp);
+      sumSin3DeltaPhiPos_sf += TMath::Sin(3/2*(phi-psi3TPC_tmp));
+      sumSin2DeltaPhiVertPos_sf += TMath::Sin(phi-psi2TPC_tmp+TMath::Pi()/2);
+      sumSin3DeltaPhiVertPos_sf += TMath::Sin(3/2*(phi-psi3TPC_tmp+TMath::Pi()/3));
+
+      sumCos2DeltaPhiPos_sf += TMath::Cos(2*(phi-psi2TPC_tmp));
+      sumCos3DeltaPhiPos_sf += TMath::Cos(3*(phi-psi3TPC_tmp));
+      sumCos2DeltaPhiVertPos_sf += TMath::Cos(2*(phi-psi2TPC_tmp+TMath::Pi()/2));
+      sumCos3DeltaPhiVertPos_sf += TMath::Cos(3*(phi-psi3TPC_tmp+TMath::Pi()/3));
     }
-    if(type_1 < 0) 
+    if(charge < 0) 
     {
-      sumSin2DeltaPhiNeg += sin(phi_1-psi2TPC_tmp);
-      sumSin3DeltaPhiNeg += sin(3/2*(phi_1-psi3TPC_tmp));
-      sumSin2DeltaPhiVertNeg += sin(phi_1-psi2TPC_tmp+TMath::Pi()/2);
-      sumSin3DeltaPhiVertNeg += sin(3/2*(phi_1-psi3TPC_tmp+TMath::Pi()/3));
+      sumSin2DeltaPhiNeg += TMath::Sin(phi-psi2TPC_tmp);
+      sumSin3DeltaPhiNeg += TMath::Sin(3/2*(phi-psi3TPC_tmp));
+      sumSin2DeltaPhiVertNeg += TMath::Sin(phi-psi2TPC_tmp+TMath::Pi()/2);
+      sumSin3DeltaPhiVertNeg += TMath::Sin(3/2*(phi-psi3TPC_tmp+TMath::Pi()/3));
+
+      sumCos2DeltaPhiNeg += TMath::Cos(2*(phi-psi2TPC_tmp));
+      sumCos3DeltaPhiNeg += TMath::Cos(3*(phi-psi3TPC_tmp));
+      sumCos2DeltaPhiVertNeg += TMath::Cos(2*(phi-psi2TPC_tmp+TMath::Pi()/2));
+      sumCos3DeltaPhiVertNeg += TMath::Cos(3*(phi-psi3TPC_tmp+TMath::Pi()/3));
       nNeg++;
+
     }
-    if(type_sf < 0) 
+    if(charge_sf < 0) 
     {
-      sumSin2DeltaPhiNeg_sf += sin(phi_1-psi2TPC_tmp);
-      sumSin3DeltaPhiNeg_sf += sin(3/2*(phi_1-psi3TPC_tmp));
-      sumSin2DeltaPhiVertNeg_sf += sin(phi_1-psi2TPC_tmp+TMath::Pi()/2);
-      sumSin3DeltaPhiVertNeg_sf += sin(3/2*(phi_1-psi3TPC_tmp+TMath::Pi()/3));
+      sumSin2DeltaPhiNeg_sf += TMath::Sin(phi-psi2TPC_tmp);
+      sumSin3DeltaPhiNeg_sf += TMath::Sin(3/2*(phi-psi3TPC_tmp));
+      sumSin2DeltaPhiVertNeg_sf += TMath::Sin(phi-psi2TPC_tmp+TMath::Pi()/2);
+      sumSin3DeltaPhiVertNeg_sf += TMath::Sin(3/2*(phi-psi3TPC_tmp+TMath::Pi()/3));
+
+      sumCos2DeltaPhiNeg_sf += TMath::Cos(2*(phi-psi2TPC_tmp));
+      sumCos3DeltaPhiNeg_sf += TMath::Cos(3*(phi-psi3TPC_tmp));
+      sumCos2DeltaPhiVertNeg_sf += TMath::Cos(2*(phi-psi2TPC_tmp+TMath::Pi()/2));
+      sumCos3DeltaPhiVertNeg_sf += TMath::Cos(3*(phi-psi3TPC_tmp+TMath::Pi()/3));
     }
   }
-    if(nPos * nNeg * nPosPos * nNegNeg * nNegNeg == 0) return;
-
+    if(nPos * nNeg == 0) return;
+    //Sin
     sumSin2DeltaPhiPos /= (double)nPos;
     sumSin2DeltaPhiPos_sf /= (double)nPos;
     sumSin2DeltaPhiVertPos /= (double)nPos;
@@ -690,33 +729,82 @@ void AliAnalysisTaskRdoubleRatio::UserExec(Option_t *)
     sumSin3DeltaPhiVertNeg /= (double)nNeg;
     sumSin3DeltaPhiVertNeg_sf /= (double)nNeg;
 
+    //Cos
+    sumCos2DeltaPhiPos /= (double)nPos;
+    sumCos2DeltaPhiPos_sf /= (double)nPos;
+    sumCos2DeltaPhiVertPos /= (double)nPos;
+    sumCos2DeltaPhiVertPos_sf /= (double)nPos;
 
-    double deltaS2 = sumSin2DeltaPhiPos - sumSin2DeltaPhiNeg;
-    double deltaS2_sf = sumSin2DeltaPhiPos_sf - sumSin2DeltaPhiNeg_sf;
-    double deltaS2Vert = sumSin2DeltaPhiVertPos - sumSin2DeltaPhiVertNeg;
-    double deltaS2Vert_sf = sumSin2DeltaPhiVertPos_sf - sumSin2DeltaPhiVertNeg_sf;
+    sumCos2DeltaPhiNeg /= (double)nNeg;
+    sumCos2DeltaPhiNeg_sf /= (double)nNeg;
+    sumCos2DeltaPhiVertNeg /= (double)nNeg;
+    sumCos2DeltaPhiVertNeg_sf /= (double)nNeg;
 
-    double deltaS3 = sumSin3DeltaPhiPos - sumSin3DeltaPhiNeg;
-    double deltaS3_sf = sumSin3DeltaPhiPos_sf - sumSin3DeltaPhiNeg_sf;
-    double deltaS3Vert = sumSin3DeltaPhiVertPos - sumSin3DeltaPhiVertNeg;
-    double deltaS3Vert_sf = sumSin3DeltaPhiVertPos_sf - sumSin3DeltaPhiVertNeg_sf;
+    sumCos3DeltaPhiPos /= (double)nPos;
+    sumCos3DeltaPhiPos_sf /= (double)nPos;
+    sumCos3DeltaPhiVertPos /= (double)nPos;
+    sumCos3DeltaPhiVertPos_sf /= (double)nPos;
 
-    //N(deltaS)
-    hNDeltaSPsi2[centBin]->Fill(deltaS2);
-    //N(deltaS_sf)
-    hNDeltaSPsi2_sf[centBin]->Fill(deltaS2_sf);
-    //N(deltaSVert)
-    hNDeltaSVertPsi2[centBin]->Fill(deltaS2Vert);
-    //N(deltaSVert_sf)
-    hNDeltaSVertPsi2_sf[centBin]->Fill(deltaS2Vert_sf);
-    //N(deltaS)
-    hNDeltaSPsi3[centBin]->Fill(deltaS3);
-    //N(deltaS_sf)
-    hNDeltaSPsi3_sf[centBin]->Fill(deltaS3_sf);
-    //N(deltaSVert)
-    hNDeltaSVertPsi3[centBin]->Fill(deltaS3Vert);
-    //N(deltaSVert_sf)
-    hNDeltaSVertPsi3_sf[centBin]->Fill(deltaS3Vert_sf);
+    sumCos3DeltaPhiNeg /= (double)nNeg;
+    sumCos3DeltaPhiNeg_sf /= (double)nNeg;
+    sumCos3DeltaPhiVertNeg /= (double)nNeg;
+    sumCos3DeltaPhiVertNeg_sf /= (double)nNeg;
+
+    //Sin
+    double deltaSinS2 = sumSin2DeltaPhiPos - sumSin2DeltaPhiNeg;
+    double deltaSinS2_sf = sumSin2DeltaPhiPos_sf - sumSin2DeltaPhiNeg_sf;
+    double deltaSinS2Vert = sumSin2DeltaPhiVertPos - sumSin2DeltaPhiVertNeg;
+    double deltaSinS2Vert_sf = sumSin2DeltaPhiVertPos_sf - sumSin2DeltaPhiVertNeg_sf;
+
+    double deltaSinS3 = sumSin3DeltaPhiPos - sumSin3DeltaPhiNeg;
+    double deltaSinS3_sf = sumSin3DeltaPhiPos_sf - sumSin3DeltaPhiNeg_sf;
+    double deltaSinS3Vert = sumSin3DeltaPhiVertPos - sumSin3DeltaPhiVertNeg;
+    double deltaSinS3Vert_sf = sumSin3DeltaPhiVertPos_sf - sumSin3DeltaPhiVertNeg_sf;
+
+    //Cos
+    double deltaCosS2 = sumCos2DeltaPhiPos - sumCos2DeltaPhiNeg;
+    double deltaCosS2_sf = sumCos2DeltaPhiPos_sf - sumCos2DeltaPhiNeg_sf;
+    double deltaCosS2Vert = sumCos2DeltaPhiVertPos - sumCos2DeltaPhiVertNeg;
+    double deltaCosS2Vert_sf = sumCos2DeltaPhiVertPos_sf - sumCos2DeltaPhiVertNeg_sf;
+
+    double deltaCosS3 = sumCos3DeltaPhiPos - sumCos3DeltaPhiNeg;
+    double deltaCosS3_sf = sumCos3DeltaPhiPos_sf - sumCos3DeltaPhiNeg_sf;
+    double deltaCosS3Vert = sumCos3DeltaPhiVertPos - sumCos3DeltaPhiVertNeg;
+    double deltaCosS3Vert_sf = sumCos3DeltaPhiVertPos_sf - sumCos3DeltaPhiVertNeg_sf;
+
+    //N(deltaSinS)
+    hNDeltaSinSPsi2[centBin]->Fill(deltaSinS2);
+    //N(deltaSinS_sf)
+    hNDeltaSinSPsi2_sf[centBin]->Fill(deltaSinS2_sf);
+    //N(deltaSinSVert)
+    hNDeltaSinSVertPsi2[centBin]->Fill(deltaSinS2Vert);
+    //N(deltaSinSVert_sf)
+    hNDeltaSinSVertPsi2_sf[centBin]->Fill(deltaSinS2Vert_sf);
+    //N(deltaSinS)
+    hNDeltaSinSPsi3[centBin]->Fill(deltaSinS3);
+    //N(deltaSinS_sf)
+    hNDeltaSinSPsi3_sf[centBin]->Fill(deltaSinS3_sf);
+    //N(deltaSinSVert)
+    hNDeltaSinSVertPsi3[centBin]->Fill(deltaSinS3Vert);
+    //N(deltaSinSVert_sf)
+    hNDeltaSinSVertPsi3_sf[centBin]->Fill(deltaSinS3Vert_sf);
+
+    //N(deltaSinS)
+    hNDeltaCosSPsi2[centBin]->Fill(deltaCosS2);
+    //N(deltaSinS_sf)
+    hNDeltaCosSPsi2_sf[centBin]->Fill(deltaCosS2_sf);
+    //N(deltaSinSVert)
+    hNDeltaCosSVertPsi2[centBin]->Fill(deltaCosS2Vert);
+    //N(deltaSinSVert_sf)
+    hNDeltaCosSVertPsi2_sf[centBin]->Fill(deltaCosS2Vert_sf);
+    //N(deltaSinS)
+    hNDeltaCosSPsi3[centBin]->Fill(deltaCosS3);
+    //N(deltaSinS_sf)
+    hNDeltaCosSPsi3_sf[centBin]->Fill(deltaCosS3_sf);
+    //N(deltaSinSVert)
+    hNDeltaCosSVertPsi3[centBin]->Fill(deltaCosS3Vert);
+    //N(deltaSinSVert_sf)
+    hNDeltaCosSVertPsi3_sf[centBin]->Fill(deltaCosS3Vert_sf);
 
   hEvtCount->Fill(20);
   PostData(1,mOutputList);
